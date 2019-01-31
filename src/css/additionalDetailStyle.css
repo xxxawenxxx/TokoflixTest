@@ -1,0 +1,36 @@
+
+.slick-next:before{
+    opacity:0.2 ;
+}
+
+.slick-prev:before{
+    opacity:0.2;
+}
+
+.slick-next
+{
+    right: 50px; 
+    transform: scale(3);
+    top: 150px;
+}
+
+.slick-prev
+{
+    top: 150px;
+    left:50px;
+    z-index:1000;
+    transform: scale(3);
+}
+
+#fixedbuttonleft {
+    position: fixed;
+    bottom: 35%;
+    left: 15%; 
+    z-index: 100;
+}
+
+#fixedbuttonright {
+    position: fixed;
+    bottom: 35%;
+    right: 15%; 
+}
